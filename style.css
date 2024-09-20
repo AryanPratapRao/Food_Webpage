@@ -1,0 +1,408 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+
+body{
+	height:100vh;
+	width:100vw;
+	background:linear-gradient(lightgreen,white);
+}
+
+#nav{
+	height:10%;
+	width:100%;
+	background:transparent;
+	display:flex;
+}
+
+.logo{
+	width:30%;
+	height:100%;
+	background:transparent;
+	padding-top:15px;
+}
+
+.logo h2{
+	font-size:30px;
+	text-align:center;
+}
+
+.menu{
+	width:50%;
+	height:100%;
+	background:transparent;
+	padding-top:20px;
+}
+
+.menu ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.icon{
+	width:20%;
+	height:100%;
+	background:transparent;
+}
+
+.icon button{
+	height:30px;
+	width:120px;
+	border-radius:20px;
+	border:none;
+	margin-top:15px;
+	margin-left:30px;
+	font-weight:bold;
+	background-color:green;
+	color:white;
+}
+
+#box{
+	height:60%;
+	width:100%;
+	background:transparent;
+	display:flex;
+}
+
+.b1{
+	width:50%;
+	height:100%;
+	background:transparent;
+	padding-top:100px;
+	padding-left:100px;
+}
+
+.b1 h2{
+	font-size:50px;
+	font-weight:bold;
+}
+
+.b1 p{
+	margin-top:20px;
+	font-size:15px;
+}
+
+.b1 button{
+	height:40px;
+	width:140px;
+	margin-top:20px;
+	border-radius:20px;
+	border:1px solid black;
+	font-weight:bold;
+}
+
+.b2{
+	width:50%;
+	height:100%;
+	background-color:transparent;
+}
+
+#foodIcon{
+	height:80%;
+	width:48%;
+	background:url("food/4.jpeg");
+	background-size:cover;
+	border-radius:50%;
+	border:15px solid green;
+	margin-left:150px;
+	margin-top:40px;
+	box-shadow:0px 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+#fastFood{
+	height:60%;
+	width:100%;
+	background-color:transparent;;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.smallCard{
+	height:70%;
+	width:15%;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:0px 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+.smallCircle{
+	width:70%;
+	height:50%;
+	border-radius:50%;
+	background:url("food/2.jpeg");
+	background-size:cover;
+	border:8px solid green;
+	margin-left:30px;
+	transform:translateY(-50px);
+}
+
+#fastFood h2{
+	text-align:center;
+	font-weight:bold;
+}
+
+#fastFood p{
+	text-align:center;
+	margin-top:10px;
+}
+
+#fastFood button{
+	height:30px;
+	width:80px;
+	border-radius:20px;
+	margin-left:13px;
+	margin-top:20px;
+	border:1px solid black;
+	font-weight:bold;
+}
+
+.smallCircle1{
+	background:url("food/12.jpeg");
+	background-size:cover;
+}
+
+.smallCircle2{
+	background:url("food/6.jpeg");
+	background-size:cover;
+}
+
+.smallCircle3{
+	background:url("food/15.jpeg");
+	background-size:cover;
+}
+
+#about{
+	width:100%;
+	height:60%;
+	background-color:transparent;
+}
+
+.top{
+	height:30%;
+	width:100%;
+	background-color:transparent;
+	padding-top:10px;
+}
+
+.top h2{
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+
+.top p{
+	text-align:center;
+	margin-top:10px;
+}
+
+.bottom{
+	height:70%;
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.aboutCard{
+	height:80%;
+	width:20%;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:0px 0px 4px 4px rgba(0,0,0,0.5);
+	padding-top:50px;
+	transition:all 0.5s;
+}
+
+.aboutCard h2{
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+}
+.aboutCard p{
+	text-align:center;
+	margin-top:20px;
+}
+
+.aboutCard:hover{
+	height:82%;
+	width:22%;
+	transition:all 0.5s;
+}
+
+#items{
+	height:100%;
+	width:100%;
+	background-color:transparent;
+}
+
+.heading{
+	width:100%;
+	height:20%;
+	background-color:transparent
+	padding-top:10px;
+}
+
+.heading h2{
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+
+.heading p{
+	text-align:center;
+	margin-top:20px;
+}
+
+.itemsBox{
+	height:40%;
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	padding-top:25px;
+}
+
+.itemsCard{
+	height:90%;
+	width:15%;
+	background-color:white;
+	border-radius:15px;
+	box-shadow:0px 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+.itemsCircule{
+	height:50%;
+	width:50%;
+	border-radius:50%;
+	background:url("food/3.jpeg");
+	background-size:cover;
+	margin-left:50px;
+	transform:translateY(-40px);
+	border:8px solid green;
+}
+
+.img1{
+	background:url("food/11.jpeg");
+	background-size:100% 100%;
+}
+
+.img2{
+	background:url("food/7.jpeg");
+	background-size:cover;
+}
+
+.img3{
+	background:url("food/9.jpeg");
+	background-size:100% 100%;
+}
+
+.img4{
+	background:url("food/10.jpeg");
+	background-size:cover;
+}
+
+.img5{
+	background:url("food/14.jpeg");
+	background-size:cover;
+}
+
+.itemsCard h2{
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.itemsCard button{
+	height:30px;
+	width:80px;
+	border:1px solid black;
+	margin-left:10px;
+	margin-top:30px;
+	border-radius:20px;
+	font-weight:bold;
+}
+
+.chef{
+	width:100%;
+	height:100%;
+}
+
+.aboutChef{
+	height:30%;
+	width:100%;
+	background-color:transparent;
+	padding-top:100px;
+}
+
+.aboutChef h2{
+	text-align:center;
+	font-size:40px;
+}
+
+.aboutChef p{
+	text-align:center;
+}
+
+.chefTemp{
+	height:100%;
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.chefCard{
+	width:20%;
+	height:60%;
+	background:url("food/18.jpeg");
+	background-size:cover;
+	background-position:center;
+	border-radius:10px;
+	transition:all 0.5s;
+	box-shadow:0px 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+.chefCard2{
+	background:url("food/17.jpeg");
+	background-size:cover;
+	background-position:center;
+}
+
+.chefCard3{
+	background:url("food/19.jpeg");
+	background-size:cover;
+	background-position:center;
+}
+
+
+.chefCard:hover{
+	width:25%;
+	height:85%;
+	transition:all 0.5s;
+}
+
+.transCard{
+	transform:translateY(10%);
+}
+/*
+.footer{
+	height:60%;
+	width:100%;
+	background-color:teal;
+	border:2px solid green;
+}
+*/
